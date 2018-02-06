@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.zhuzh.a6200finalwithfirebase.AndroidActivities.CustomerOrderActivity"
+    android:background="@drawable/background">
+
+    <info.hoang8f.widget.FButton
+        android:layout_marginTop="6dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClickCheckout"
+        android:text="Check Out"/>
+
+    <info.hoang8f.widget.FButton
+        android:layout_marginTop="6dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClickViewDetails"
+        android:text="View Details"/>
+
+
+    <info.hoang8f.widget.FButton
+        android:layout_marginTop="6dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cancel This Oreder"
+            android:onClick="onClickCancel"/>
+
+    <info.hoang8f.widget.FButton
+        android:layout_marginTop="6dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Accept Partially Order"
+        android:onClick="onClickPartial"/>
+
+    <ListView
+        android:id="@+id/customerOrder"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_key"
+        android:listSelector="@color/pressed_color"
+        ></ListView>
+
+</LinearLayout>

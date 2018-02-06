@@ -1,0 +1,4 @@
+Burger,100,
+Chicken,100,
+French Fries,100,
+Onion Rings,100,

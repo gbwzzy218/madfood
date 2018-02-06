@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp">
+
+    <TextView
+        android:id="@+id/order_item_Sequence"
+        android:layout_width="51dp"
+        android:layout_height="wrap_content"
+        android:text="01"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/order_item_Name"
+        android:layout_width="168dp"
+        android:layout_height="wrap_content"
+        android:text="Fries"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/order_item_Total_Price"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:text="9.99"
+        android:textSize="20sp"
+        android:textAlignment="textEnd"/>
+
+</LinearLayout>
+
